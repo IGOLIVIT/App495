@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CoursesModel" representedClassName="CoursesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="coCategory" optional="YES" attributeType="String"/>
+        <attribute name="coCertification" optional="YES" attributeType="String"/>
+        <attribute name="coDescription" optional="YES" attributeType="String"/>
+        <attribute name="coDetailedDescr" optional="YES" attributeType="String"/>
+        <attribute name="coParts" optional="YES" attributeType="String"/>
+        <attribute name="coRefDiscounts" optional="YES" attributeType="String"/>
+        <attribute name="coSelectedImage" optional="YES" attributeType="String"/>
+        <attribute name="coSPrice" optional="YES" attributeType="String"/>
+        <attribute name="coStedDiscounts" optional="YES" attributeType="String"/>
+        <attribute name="coThumbnail" optional="YES" attributeType="String"/>
+        <attribute name="coTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TransModel" representedClassName="TransModel" syncable="YES" codeGenerationType="class">
+        <attribute name="transAmount" optional="YES" attributeType="String"/>
+        <attribute name="transSubtitle" optional="YES" attributeType="String"/>
+        <attribute name="transTitle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
